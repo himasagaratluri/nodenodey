@@ -1,0 +1,25 @@
+{
+  "name": "nodenodey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "aws-sdk": "^2.300.0",
+    "lodash": "^4.17.10",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himasagaratluri/nodenodey.git"
+  },
+  "author": "HAS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/himasagaratluri/nodenodey/issues"
+  },
+  "homepage": "https://github.com/himasagaratluri/nodenodey#readme"
+}
