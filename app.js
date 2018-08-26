@@ -13,13 +13,13 @@ console.log('Process',process.argv);
 console.log('Yargs', argv);
 
 if (command === 'read') {
-    console.log('Reading the notes from the DataBase: ');
+    note.readNote(argv.title,argv.body);
 } else if (command === 'remove'){
-    console.log('Removing the notes from the DataBase: ');
+    note.delNote(argv.title,argv.body);
 } else if (command === 'list'){
-    console.log('Listing all the notes from the DataBase:');
-}else if (command === 'add'){
+    note.listNote(argv.title,argv.body);
+} else if (command === 'add'){
     note.addNote(argv.title, argv.body);
-}else{
+} else{
     console.log('Command is not recognized ');
 };
