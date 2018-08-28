@@ -17,7 +17,7 @@ if (command === 'read') {
 } else if (command === 'remove'){
     note.delNote(argv.title);
 } else if (command === 'list'){
-    note.getAll(argv.title);
+    note.getAll();
 } else if (command === 'add'){
     note.addNote(argv.title, argv.body);
 } else{

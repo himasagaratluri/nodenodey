@@ -12,8 +12,8 @@ var delNote = (title) => {
     console.log('Deleteing the note', title);
 };
 
-var getAll = (title) => {
-    console.log('Listing the note', title);
+var getAll = () => {
+    console.log('Listing the note');
 };
 
 module.exports = {
