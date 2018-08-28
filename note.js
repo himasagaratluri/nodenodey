@@ -5,15 +5,15 @@ var addNote = (title,body) =>{
 };
 
 var getNote = (title) => {
-    console.log('Reading the note', title, body);
+    console.log('Reading the note', title);
 };
 
 var delNote = (title) => {
-    console.log('Deleteing the note', title, body);
+    console.log('Deleteing the note', title);
 };
 
 var getAll = (title) => {
-    console.log('Listing the note', title, body);
+    console.log('Listing the note', title);
 };
 
 module.exports = {
