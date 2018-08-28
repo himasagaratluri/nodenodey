@@ -13,11 +13,11 @@ console.log('Process',process.argv);
 console.log('Yargs', argv);
 
 if (command === 'read') {
-    note.readNote(argv.title,argv.body);
+    note.getNote(argv.title);
 } else if (command === 'remove'){
-    note.delNote(argv.title,argv.body);
+    note.delNote(argv.title);
 } else if (command === 'list'){
-    note.listNote(argv.title,argv.body);
+    note.getAll(argv.title);
 } else if (command === 'add'){
     note.addNote(argv.title, argv.body);
 } else{
