@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "dependencies": {
-    "aws-sdk": "^2.300.0",
+    "aws-sdk": "^2.814.0",
     "lodash": ">=4.17.19",
     "uuid": "^3.3.2",
     "yargs": ">=13.1.2"
